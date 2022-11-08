@@ -19,50 +19,50 @@
     width: 400px;   
 }
 
-.left {
-    float: left;
+.right {
+    float: right;
     width: 150px;
     height: 250px;
     background-color: #80bfa8;
 }
 
-/* RIGHT CONTENTS */
-.right {
-    float: right;
+/* LEFT CONTENTS */
+.left {
+    float: left;
     width: 250px;
     height: 250px;
     background-color: gainsboro;
 }
 
-.right-top {
+.left-top {
     width: 250px;
     height: 100px;
-    background-color: #0093b7;
 }
-.right-bottom {
+.left-bottom {
     width: 250px;
     height: 150px;
+    background-color: #0093b7;
 }
 
-.r-bottom-left {
+.l-top-left {
     float: left;
     width: 100px;
     height: 150px;
     background-color: #dbd403;
 }
-.r-bottom-right {
+.l-top-right {
     float: right;
     width: 150px;
     height: 100px;
 }
 
-.rbr-top {
+.ltr-top {
     height: 50px;
-    background-color: #ff9e6b;
-}
-.rbr-bottom {
-    height: 100px;
     background-color: #8c2727;
+}
+.ltr-bottom {
+    height: 100px;
+    background-color: #ff9e6b;
 }
 
 
